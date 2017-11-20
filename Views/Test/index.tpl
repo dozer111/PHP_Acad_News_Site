@@ -1,0 +1,1 @@
+<h1 id="online">You are the {$online} visiter LOL</h1>
