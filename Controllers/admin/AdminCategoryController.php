@@ -29,4 +29,18 @@ class AdminCategoryController extends CoreController
      return $this->getSmarty()->display('Admin/Category/index.tpl',compact('listToSelect','allCategoriesData'));
  }
 
+    /**
+     * Обновление категории
+     */
+ public function actionUpdate()
+ {
+     $categoryModel=new CategoryModel();
+
+    $cat_id=$_POST['category_id'];
+    $cat_name=$_POST['category_name'];
+    $cat_parent=$_POST['category_parent'];
+    $categoryModel->updateCategory($cat_id,$cat_name,$cat_parent);
+    header("Location:/admin/category/index");
+ }
+
 }

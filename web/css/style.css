@@ -229,3 +229,9 @@ div#userContainer
     border-bottom: 4px solid black;
 }
 
+.tag
+{
+    background-color: silver;
+    font-size: 21px;
+
+}

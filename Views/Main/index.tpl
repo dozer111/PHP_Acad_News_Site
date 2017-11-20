@@ -128,9 +128,11 @@
                         <ul>
 
                             {foreach $newsArray[$category['id']] as $post}
+
                             <li class="left_20"><a href="/news/show/{$post['id']}">{$post['title']}</a></li>
-                                {/foreach}
-                            </li>
+
+                            {/foreach}
+
                         </ul>
 
                     </div>

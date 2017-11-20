@@ -34,11 +34,23 @@ class NewsController extends CoreController
         $visitedAllTimeData=$viewsCountModel->getCountPage();
 
         #3 получаем сведения об онлайн пользователях
+        // Смотрим в TestController==>actionIndex
+
+        #4 Получаем все теги по данной новости
+        $tagModel=new TagModel();
+        $tagsToArticle=$tagModel->getTagByArticle($url);
 
 
-
+        /**
+         * ------------------------------------------------------
+         * На выход попадают такие данные:
+         * 1) Массив с новостью ===  $getArticle
+         * 2) Общее к-во просмотров ====  $visitedAllTimeData
+         * 3) Массив с тэгами для новости ===  $tagsToArticle
+         * --------------------------------------------------------
+         */
         return $this->getSmarty()->display('News/show.tpl',compact('getArticle',
-            'visitedAllTimeData'));
+            'visitedAllTimeData','tagsToArticle'));
 
     }
 

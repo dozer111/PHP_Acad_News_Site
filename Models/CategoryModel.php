@@ -69,7 +69,13 @@ public static function getCategoriesToSelect()
 }
 
 
-
+public function updateCategory($cat_id,$cat_name='',$cat_parent=0)
+{
+    $query="UPDATE `".self::CATEGORY_TABLE_NAME."` SET `category_name`='".$cat_name."',`category_parent`=".$cat_parent."
+     WHERE `".self::CATEGORY_TABLE_NAME."`.`id`=".$cat_id;
+   $db=DB::getInstance();
+   return (bool) $db->query($query);
+}
 
 
 

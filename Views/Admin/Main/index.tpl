@@ -42,7 +42,7 @@
             <a href="/admin/category/index" class="list-group-item">Categories</a>
             <a href="/admin/post/index" class="list-group-item">News</a>
             <a href="/admin/user/index" class="list-group-item">Users</a>
-            <a href="#" class="list-group-item">test text</a>
+            <a href="/admin/tag/index" class="list-group-item">Tags</a>
             <a href="#" class="list-group-item">tex inside 10</a>
             <a href="#" class="list-group-item">text inside 11</a>
             <a href="#" class="list-group-item">text inside 12</a>
@@ -51,7 +51,7 @@
 
 
     <div id="userArticles" class="articleMain">
-        {block name=category}{/block}
+        {block name=inside}{/block}
     </div>
 </div>
 {/block}

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-17 15:04:20
+/* Smarty version 3.1.30, created on 2017-11-20 12:35:17
   from "C:\xampp\htdocs\Views\layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a0eec649938c8_29828745',
+  'unifunc' => 'content_5a12bdf53a9574_07201341',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '527aef30117dcd6b982a77b1a6d3f5249e6c26d8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Views\\layout.tpl',
-      1 => 1510927307,
+      1 => 1511177715,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a0eec649938c8_29828745 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a12bdf53a9574_07201341 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -33,7 +33,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/../web/css/reset.css">
+
 
     <!--  --------------------------      -->
     <!--Bootstrap Include -->
@@ -63,18 +63,18 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 <div id="nav">
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18467701955a0eec64990d83_99342020', 'nav');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10708164555a12bdf53a6994_84613128', 'nav');
 ?>
 
 </div>
 <div id="content">
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4291069685a0eec64992098_52304167', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8989611385a12bdf53a7d86_15638722', 'body');
 ?>
 
 </div>
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11015170695a0eec64993131_85513623', 'footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13361996565a12bdf53a8da0_70171120', 'footer');
 ?>
 
 
@@ -84,7 +84,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11015170695a0eec64
 </body>
 </html><?php }
 /* {block 'nav'} */
-class Block_18467701955a0eec64990d83_99342020 extends Smarty_Internal_Block
+class Block_10708164555a12bdf53a6994_84613128 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -144,14 +144,14 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'nav'} */
 /* {block 'body'} */
-class Block_4291069685a0eec64992098_52304167 extends Smarty_Internal_Block
+class Block_8989611385a12bdf53a7d86_15638722 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 }
 /* {/block 'body'} */
 /* {block 'footer'} */
-class Block_11015170695a0eec64993131_85513623 extends Smarty_Internal_Block
+class Block_13361996565a12bdf53a8da0_70171120 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }

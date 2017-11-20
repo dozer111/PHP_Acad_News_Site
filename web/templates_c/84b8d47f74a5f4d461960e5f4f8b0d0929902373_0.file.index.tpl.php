@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-16 10:49:21
+/* Smarty version 3.1.30, created on 2017-11-20 13:21:56
   from "C:\xampp\htdocs\Views\Main\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a0d5f21a722d4_37985251',
+  'unifunc' => 'content_5a12c8e45b3260_11044165',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '84b8d47f74a5f4d461960e5f4f8b0d0929902373' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Views\\Main\\index.tpl',
-      1 => 1510825761,
+      1 => 1511179809,
       2 => 'file',
     ),
   ),
@@ -21,18 +21,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../layout.tpl' => 1,
   ),
 ),false)) {
-function content_5a0d5f21a722d4_37985251 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a12c8e45b3260_11044165 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14529861575a0d5f21a716a9_46041127', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17971082575a12c8e45b2ad3_69165901', 'body');
 $_smarty_tpl->inheritance->endChild();
 $_smarty_tpl->_subTemplateRender("file:../layout.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block "leftMenu"} */
-class Block_20714430035a0d5f21a68438_39836934 extends Smarty_Internal_Block
+class Block_6469584715a12c8e45aac42_80402489 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -58,13 +58,13 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 }
 /* {/block "leftMenu"} */
 /* {block 'body'} */
-class Block_14529861575a0d5f21a716a9_46041127 extends Smarty_Internal_Block
+class Block_17971082575a12c8e45b2ad3_69165901 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20714430035a0d5f21a68438_39836934', "leftMenu", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6469584715a12c8e45aac42_80402489', "leftMenu", $this->tplIndex);
 ?>
 
     <div id="right">
@@ -201,16 +201,18 @@ $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->t
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['post']->value) {
 ?>
+
                             <li class="left_20"><a href="/news/show/<?php echo $_smarty_tpl->tpl_vars['post']->value['id'];?>
 "><?php echo $_smarty_tpl->tpl_vars['post']->value['title'];?>
 </a></li>
-                                <?php
+
+                            <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 ?>
 
-                            </li>
+
                         </ul>
 
                     </div>

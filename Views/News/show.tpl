@@ -75,7 +75,13 @@
     <!--  --------------------------      -->
     <!--  --------------------------      -->
 
-    <div id="popularArticles"></div>
+    <div id="popularArticles">
+        <p>
+        {foreach $tagsToArticle as $soloTag}
+            <span class="tag">#{$soloTag['tag_name']}&nbsp; &nbsp;</span>
+        {/foreach}
+        </p>
+    </div>
     <!--  --------------------------      -->
     <!--  --------------------------      -->
     <!--  --------------------------      -->
